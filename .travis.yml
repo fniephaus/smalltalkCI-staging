@@ -1,5 +1,8 @@
 language: smalltalk
+
+dist: trusty
 sudo: false
+group: beta
 
 smalltalk:
   - Squeak-5.1
