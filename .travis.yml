@@ -1,0 +1,7 @@
+language: smalltalk
+sudo: false
+
+smalltalk:
+  - Squeak-5.1
+
+script: ./run.sh
