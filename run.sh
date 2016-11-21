@@ -6,4 +6,4 @@ tar xzf image.tar.gz
 echo "VM..."
 ./products/sqcogspurlinuxht/squeak -version
 echo "Run..."
-./products/sqcogspurlinuxht/squeak -nosound -nodisplay ./Travis.image "$(pwd)/script.st"
+./products/sqcogspurlinuxht/squeak -nosound -nodisplay ./TravisCI.image "$(pwd)/script.st"
