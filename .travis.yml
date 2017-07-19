@@ -1,7 +1,10 @@
 language: smalltalk
 sudo: false
 
+smalltalk_vm: OSVM-Foo
+
 smalltalk:
   - Squeak-5.1
 
-script: ./run.sh
+script:
+  - echo $TRAVIS_SMALLTALK_VM
