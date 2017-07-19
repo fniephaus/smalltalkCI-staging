@@ -2,6 +2,6 @@ language: smalltalk
 sudo: false
 
 smalltalk:
-  - Squeak64-5.1
+  - Pharo64-6.0
 
 script: ./run.sh
