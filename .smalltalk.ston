@@ -1,3 +1,4 @@
 SmalltalkCISpec {
-  #loading : []
+  #loading : [],
+  #testing : { #failOnZeroTests : false }
 }
