@@ -3,3 +3,7 @@ sudo: false
 
 smalltalk:
   - Squeak-5.1
+
+smalltalk_config:
+  - .smalltalk.ston
+  - .smalltalkCI_fail.ston
