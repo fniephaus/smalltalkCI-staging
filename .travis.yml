@@ -3,8 +3,8 @@ sudo: false
 
 smalltalk:
   - Squeak-5.1
+  - Squeak-5.1
 
-jobs:
-  include:
-    - smalltalk_config: .smalltalk.ston
-    - smalltalk_config: .smalltalkCI_fail.ston
+smalltalk_config:
+  - .smalltalk.ston
+  - .smalltalkCI_fail.ston
